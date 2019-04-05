@@ -24,7 +24,7 @@ The RNA-seq data that we will be using is hosted at NCBI's Sequence Read Archive
 sudo apt-get install sra-toolkit
 ```
 
-Once installed, execute the following command to download the data of 6 RNA-seq runs from the same experiment that we will use in this tutorial.
+Once installed, execute the following command to download the data of 6 RNA-seq runs from the same experiment that we will use in this tutorial. This may take a while as the file sizes are quite large.
 
 ```
 for id in SRR4018567 SRR4018568 SRR4018569 SRR4018573 SRR4018574 SRR4018575
